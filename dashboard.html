@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="/src/dashboard.css">
+      </head>
+      <body>
+        <div class="container">
+          <aside>
+            <div class="logo">A</div>
+            <nav>
+              <a href="#" class="active">
+                <i class="icon home"></i>
+              </a>
+              <a href="#">
+                <i class="icon chart"></i>
+              </a>
+              <a href="#">
+                <i class="icon graph"></i>
+              </a>
+              <a href="#">
+                <i class="icon wallet"></i>
+              </a>
+              <a href="#">
+                <i class="icon settings"></i>
+              </a>
+            </nav>
+            <a href="#" class="logout">
+              <i class="icon logout"></i>
+            </a>
+          </aside>
+          <main>
+            <header>
+              <div class="header-left">
+                <a href="#">
+                  <i class="icon back"></i>
+                </a>
+                <h2>Home</h2>
+              </div>
+              <div class="header-right">
+                <input type="text" placeholder="Search">
+                <a href="#">
+                  <i class="icon notification"></i>
+                </a>
+                <a href="#" class="profile"></a>
+              </div>
+            </header>
+            <section class="hero">
+              <div class="hero-content">
+                <div class="hero-text">
+                  <h3>A-CRYPTO AI</h3>
+                  <h2>New Product Combines with AI</h2>
+                  <p>Analyze the cryptocurrency market using AI.</p>
+                  <button>Learn More.</button>
+                </div>
+                <div class="hero-image"></div>
+              </div>
+            </section>
+            <section class="market-data">
+              <div class="chart-container">
+                <div class="chart-header">
+                  <h3>ETH/USD</h3>
+                  <div class="chart-controls">
+                    <button class="active">Day</button>
+                    <button>Week</button>
+                    <button>Month</button>
+                  </div>
+                </div>
+                <div class="chart"></div>
+              </div>
+              <div class="crypto-cards">
+                <div class="crypto-card">
+                  <div class="card-header">
+                    <i class="icon btc"></i>
+                    <span class="change up">6.2%</span>
+                  </div>
+                  <div class="card-body">
+                    <h3>BTC - USD</h3>
+                    <p>$ 65,000.30</p>
+                  </div>
+                  <div class="card-chart"></div>
+                </div>
+                <div class="crypto-card">
+                  <div class="card-header">
+                    <i class="icon eth"></i>
+                    <span class="change down">1.4%</span>
+                  </div>
+                  <div class="card-body">
+                    <h3>ETH - USD</h3>
+                    <p>$ 3,527.55</p>
+                  </div>
+                  <div class="card-chart"></div>
+                </div>
+                <div class="crypto-card">
+                  <div class="card-header">
+                    <i class="icon bnb"></i>
+                    <span class="change up">10.5%</span>
+                  </div>
+                  <div class="card-body">
+                    <h3>BNB - USD</h3>
+                    <p>$ 623.19</p>
+                  </div>
+                  <div class="card-chart"></div>
+                </div>
+                <div class="crypto-card">
+                  <div class="card-header">
+                    <i class="icon atom"></i>
+                    <span class="change up">22.1%</span>
+                  </div>
+                  <div class="card-body">
+                    <h3>ATOM - USD</h3>
+                    <p>$ 20.55</p>
+                  </div>
+                  <div class="card-chart"></div>
+                </div>
+                <div class="crypto-card">
+                  <div class="card-header">
+                    <i class="icon usdc"></i>
+                    <span class="change down">26.8%</span>
+                  </div>
+                  <div class="card-body">
+                    <h3>USDC - USD</h3>
+                    <p>$ 1027.10</p>
+                  </div>
+                  <div class="card-chart"></div>
+                </div>
+              </div>
+            </section>
+            <section class="overview-targets">
+              <div class="overview-container">
+                <div class="overview-header">
+                  <h3>Overview</h3>
+                  <div class="chart-controls">
+                    <button class="active">Day</button>
+                    <button>Week</button>
+                    <button>Month</button>
+                  </div>
+                </div>
+                <div class="overview-chart"></div>
+              </div>
+              <div class="targets-container">
+                <h3>Targets</h3>
+                <div class="targets-chart">
+                  <span>85%</span>
+                </div>
+              </div>
+              <div class="market-trend-container">
+                <div class="market-trend-header">
+                  <h3>Market Trend</h3>
+                  <button>...</button>
+                </div>
+                <div class="market-trend-table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Last Price</th>
+                        <th>24h Change</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>BTC Bitcoin</td>
+                        <td>$ 65,000.30</td>
+                        <td class="up">62.24</td>
+                      </tr>
+                      <tr>
+                        <td>BNB BNB</td>
+                        <td>$ 623.19</td>
+                        <td class="up">10.58</td>
+                      </tr>
+                      <tr>
+                        <td>ETH Ethereum</td>
+                        <td>$ 3,527.55</td>
+                        <td class="down">1.42</td>
+                      </tr>
+                      <tr>
+                        <td>LTC Litecoin</td>
+                        <td>$ 118.20</td>
+                        <td class="up">20.23</td>
+                      </tr>
+                      <tr>
+                        <td>ADA Cardano</td>
+                        <td>$ 32.12</td>
+                        <td class="up">19.05</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+      </body>
+    </html>

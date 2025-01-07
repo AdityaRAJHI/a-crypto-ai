@@ -1,0 +1,113 @@
+body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #70369c;
+      color: white;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+    .auth button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 20px;
+      font-weight: 500;
+      background-color: white;
+      color: #70369c;
+    }
+    .auth button.register {
+      background-color: #2ecc71;
+      color: white;
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #70369c;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+    .cta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    .cta input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-right: 10px;
+      flex: 1;
+      width: calc(100% - 60px);
+      font-size: 16px;
+    }
+    .cta button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #2ecc71;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .go-to-dashboard {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #70369c;
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      .cta {
+        flex-direction: column;
+      }
+      .cta input {
+        margin-bottom: 10px;
+        width: 90%;
+      }
+    }
